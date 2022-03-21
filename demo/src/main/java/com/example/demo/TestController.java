@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import org.junit.Test;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -9,7 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class TestController {
+    @Test
+    public void test(){
+        System.out.println("aaa");
 
-
+    }
 
 }
